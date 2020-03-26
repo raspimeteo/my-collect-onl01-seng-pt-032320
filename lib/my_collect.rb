@@ -1,10 +1,6 @@
 
-my_collect(collection) do |lang|
-    lang.upcase
-  end
 
-
-def my_collect
+def my_collect(collection)
     i=0
     new_array = []
     while i < collection.length
